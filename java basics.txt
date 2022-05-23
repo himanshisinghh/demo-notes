@@ -1,0 +1,305 @@
+what is Program?
+------------------------------------------
+
+set of instruction created to perform a certain task.
+
+Program can be written in diffrent different laguages like C, C++, JAVA, .NET, PHP, Python etc.
+
+you can choose any one according to your requirement.
+
+JAVA is selected for doing my programs.
+
+_________________________________________________________________
+
+when you want to work with JAVA
+
+then the software which is required to be install in your system is JDK (JAVA Development KIT)
+
+download from this link: https://www.oracle.com/java/technologies/downloads/
+
+scroll down go to jdk 8 or 11 and select OS and download the software according to bit of your OS.
+
+for JDK 11 you must have 64 bit OS --> download jdk-64installer
+
+If it is 32 bit then download 86 installer if it is 64 then download 64Installer.
+
+_________________________________________________________________________________________________
+
+double click on your installer file and then install by clicking on next next and then finish.
+
+
+once the installation done then check the version
+
+open cmd and type java -version 
+
+--------------------------------------------------------------------------
+how to write program in JAVA
+
+JAVA is object oriented programming language. So program you should create with multiple classes and objects.
+
+when we will write a program we will use diffrent keywords.
+
+____________________________________________________________________________
+
+SYNTAX
+__________
+
+class className
+{
+	//code
+}
+
+
+________________________________________________________________
+
+class HelloWorld
+{
+	//
+}
+
+_________________________________________________________________________________________
+
+IN class from where you want to start your application that is called as main METHOD ( just like ON button in remote)
+
+Syntax:
+
+public static void main(String args[])
+{
+	//codes
+}
+
+Let's Write one code IN JAVA
+_______________________________________________
+
+
+class HelloWorld
+{
+	
+
+	public static void main(String arg[])
+	{
+		System.out.println("My name is Sonam Soni, I am a fullstack JAVA Trainer");
+	}
+}
+
+_____________________________________________________________________________________
+
+save it with the name same as class name and with .java extention
+
+like-- HelloWorld.java
+
+___________________________________________________________________________________________
+
+How to RUN this
+
+----------------------------------------------------------
+
+you can not run java program directly.
+
+you have to convert this code in bytecode with the help of JAVA compiler
+
+once the code converted you can run that byte code to see the output.
+
+for compile the java file
+
+move to that location where you have created .java file
+
+using cd command (if you want to change dir from c to d then execute D:)
+
+now for compilation: javac HelloWorld.java
+
+(you can check the folder where you can see .class file available this is compiled java file)
+
+to RUN : java HelloWorld
+
+(you can see the output in CMD)
+
+Note: if you are facing error like javac is not recognised as an internal or external command then follow below mentioned steps.
+
+open c: --> program files --> JAVA --> jdk 11 --> bin
+
+copy path 
+
+now right click on this PC --> click on properties --> click on Advanced System Settings --> click on environment variable --> double click on path --> click on new add path of jdk bin folder --> apply and save
+
+again try to compile your file and check.
+______________________________________________________________________________________
+
+
+
+class Test
+{
+	
+
+	public static void main(String arg[])
+	{
+		System.out.println("Name: Sonam Soni");
+		System.out.println("Phone: ");
+		System.out.println("Address: ");
+		System.out.println("Subjects: ");
+		System.out.println("Experience: ");
+	}
+}
+
+save the file by Test.java and run.
+
+_____________________________________________________________________________________
+
+IDE: integrated development environment
+
+Eclipse is the IDE which is very populer for JAVA development
+
+Download it from here: https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-03/R/eclipse-inst-jre-win64.exe
+
+once it is downloaded double click on the same.
+
+it will open eclipse installer.
+
+click on eclipse IDE for enterprise JAVA
+
+click on install.
+
+_________________________________________________________________________
+click on eclipse ICON
+
+it will ask you to select workspace (folder location where it will store all your projects)
+
+click on browse select any folder where you want to store your project and then click on open.
+
+you wil be able to open your eclipse in that workspace.
+
+by deafult you will see the default screen so click on file -->  new --> other --> JAVA Project --> next --> give project name --> uncheck module-info.java file --> next --> finish 
+
+once it is created you can see project in package explorer.
+
+expnad the same you can see src folder in that.
+
+right click on src --> new class --> give class name --> check on public static void main --> finish
+
+you can see class code with main method.
+
+now type syso in main method and press ctrl + space you can see the code for print the values.
+
+select enter.
+
+type your message in double code and save
+
+now right click on file and run as JAVA application
+
+you can see output in console.
+_______________________________________________________________________________________
+
+Variable example
+
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		
+		int num= 20;
+		
+		float num2= 20.20f;
+		
+		char data= 'S'; 
+		
+		System.out.println(num);
+		System.out.println(num2);
+		System.out.println(data);
+
+	}
+
+}
+
+___________________________________________________________________________________________
+
+
+public class TestData {
+
+	public static void main(String[] args) {
+		
+		int a=10;
+		int b=20;
+		
+		int c= a+b;
+		
+		System.out.println("Result is " + c);
+
+	}
+
+}
+
+_________________________________________________________________________________________
+
+declared 3 variables named a,b and c
+
+trying to print value of c.
+
+similarly you can perform divison(/) , subtraction(-) an multiplication(*) as well. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
